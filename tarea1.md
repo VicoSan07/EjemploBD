@@ -66,23 +66,23 @@ Se enlistan los atributos que deberá contener la base a trabajar:
     - Cruce 1 (Texto)
     - Ceder el paso (Texto)
     - Cruce 2 (Texto)
-    - Sin salida 
+    - Sin salida (Texto)
     - Vías Férreas (Texto)
-    - Rotonda
-    - Estación
-    - Parada
-    - Reductor de velocidad 
-    - Semáforo
-    - Giro
+    - Rotonda (Texto)
+    - Estación (Texto)
+    - Parada (Texto)
+    - Reductor de velocidad (Texto)
+    - Semáforo (Texto)
+    - Giro (Texto)
 - Clasificación
-    - Identificador
-    - Severidad
+    - Identificador (Texto)
+    - Severidad (Número)
 
 
 Selección de un SGBD 😊:
 
 De todas las opciones de SGBDs, he seleccionado _Microsoft SQL Server_ debido a la interacción previa que he tenido con esta herramienta a traves de los servidores de la empresa donde laboro. Una de las principales caracteristicas que me agradan de este sistema es su proceso de control, tomandose la libertad de compartir y restringir la visualización de información y datos a clientes y usuarios, esto es muy importante para empresas que requieran procesos de huella de auditoría o un seguimiento de movimientos en sus herramientas donde alojan información confidencial.
-En temas de lenguaje, utiliza SQL y además extiende la programación a traves de un modulo llamado Transact-SQL, que añadé más opciones y comandos exclusivos de este sistema. Muy similar a varios SGBD trabaja bajo una estructura de tablas basadas en filas que a su vez conectan elementos.
-Si bien mencioné que ya tengo interacción con Microsoft SQL Server considero que me falta explotar aún más todos sus recursos, es por ello que me gustaría trabajar la base de datos de accidentes automovilísticos en este sistema.
+En temas de lenguaje, utiliza _SQL_ y además extiende la programación a traves de un modulo llamado _Transact-SQL_, que añadé más opciones y comandos exclusivos de este sistema. Muy similar a varios SGBD trabaja bajo una estructura de tablas basadas en filas que a su vez conectan elementos.
+Si bien mencioné que ya tengo interacción con _Microsoft SQL Server_ considero que me falta explotar aún más todos sus recursos, es por ello que me gustaría trabajar la base de datos de accidentes automovilísticos en este sistema.
 
 FIN 💻
