@@ -30,13 +30,9 @@ Se enlistan los tablas que deberá contener la base a trabajar:
     - Id accidente (Texto)
     - Inicio (Fecha y hora)
     - Fin (Fecha y hora)
-    - Zona horaria (Texto)
 - Ubicación
     - Id accidente (Texto)
     - Id ubicación (Texto)
-    - Latitud (Número)
-    - Longitud (Número)
-    - Número calle (Número)
     - Calle (Texto)
     - Ciudad (Texto)
     - Condado (Texto)
@@ -56,12 +52,12 @@ Se enlistan los tablas que deberá contener la base a trabajar:
     - Meteorología (Texto)
 - Automóvil
     - Id accidente (Texto)
-    - Id carro (Texto)
+    - Id auto (Texto)
     - Color (Texto)
     - Tipo (Texto)
     - Número pasajeros (Número)
 - Conductor
-    - Id carro (Texto)
+    - Id auto (Texto)
     - Fecha nacimiento conductor (Fecha)
 
 
