@@ -60,10 +60,10 @@ El esquema anterior, puede ser representado a tráves del siguiente diagrama rel
         numero sensacion_term
         numero humedad
         numero presion_aire
-        numero direccion_viento
+        texto direccion_viento
         numero velocidad_viento
         numero precipitacion
-        numero meteorologia
+        texto meteorologia
         entero id_ub
     }
 
@@ -92,3 +92,35 @@ El esquema anterior, puede ser representado a tráves del siguiente diagrama rel
 
 Operaciones de álgebra relacional
 
+De la base he seleccionado los siguientes operadores básicos del algebra relacional:
+
+- *Selección*
+
+    Nueva York es una de las ciudades con mayor tráfico en Estados Unidos, por lo que seleccionar las tuplas que corresponden a dicha ciudad, nos podría permitir analizar más adelante el volumen o proporción de accidentes que tiene este lugar.
+
+    **σ<sub>ciudad=Nueva York</sub> (Ubicacion)**  
+
+    Relacionado al tema de las pólizas, se seleccionarán aquellas que han cubierto el 100% del daño colateral en el accidente del automóvil. Inclusive también resulta interesante analizar aquellas que no cubrieron daños.
+
+    **σ<sub>(porc_cobertura=100)</sub> (Poliza)**  
+    **σ<sub>(porc_cobertura=0)</sub> (Poliza)**
+
+    Más aún cuando provienen de aseguradoras tan famosas y comerciales en Estados Unidos, por ejemplo State Farm
+
+    **σ<sub>(porc_cobertura=0 and nombre_empresa=State Farm)</sub> (Poliza)**
+
+- *Proyección*
+
+    Dos atributos importantes a la hora de analizar un accidente son la duración del mismo y la condición meteorológica del lugar, por lo que se podrían extraer ambos atributos, esto es:
+
+    **π<sub>duracion,meteorologia</sub> (Accidente)**
+
+    En la relación conductor, se tienen atributos correspondientes al nacimiento de la persona, por lo que se extraerían de la tabla
+
+    **π<sub>fecha_nac,estado_nac,pais_nac</sub> (Conductor)**
+
+- *Composición*
+
+    Se seleccionan aquellas pólizas que cubren el 100% del daño, y se extrae la fecha de vencimiento de la póliza y el nombre de la compañía encargada:
+
+    **π<sub>fecha_venc_contrato,nombre_empresa</sub> (σ<sub>porc_cobertura=100</sub> (Poliza) )**
