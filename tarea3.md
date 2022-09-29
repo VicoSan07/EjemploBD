@@ -1,4 +1,4 @@
-## **Tarea 02 - Modelo E-R**
+## **Tarea 03 - Modelo Relacional**
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_de_la_UANL.svg"  width="200" height="100"> 
 
@@ -9,20 +9,20 @@
 #### Profr. Alberto Benavides
 #### Victor Sanchez
 
-Modelo relacional
+Esquema relacional
 
 Respecto a la [base establecida](https://github.com/VicoSan07/EjemploBD/blob/main/tarea1.md) para el registro de accidentes automovilísticos en Estados Unidos, se muestra el esquema de su modelo relacional correspondiente:
 
 ---------------------------------------------------------
-Ubicación (id_ub, calle, ciudad, condado, estado, país)
+Ubicacion (id_ub, calle, ciudad, condado, estado, pais)
 
-Accidente (id_ac, fecha_ac, duracion, temperatura, sensación_term, húmedad, presión_aire, dirección_viento, velocidad_viento, precipitación, meteorología, id_ub)
+Accidente (id_ac, fecha_ac, duracion, temperatura, sensacion_term, humedad, presion_aire, direccion_viento, velocidad_viento, precipitacion, meteorologia, id_ub)
 
 Automovil (id_auto, color, tipo)
 
-Conductor (id_auto, fecha_nac, género, estado_nac, país_nac)
+Conductor (id_auto, fecha_nac, genero, estado_nac, pais_nac)
 
-Póliza (id_auto, id_poliza, nombre_empresa, fecha_venc, porc_cobertura)
+Poliza (id_auto, id_poliza, nombre_empresa, fecha_venc, porc_cobertura)
 
 ---------------------------------------------------------
 
@@ -31,6 +31,8 @@ Póliza (id_auto, id_poliza, nombre_empresa, fecha_venc, porc_cobertura)
 2. En un accidente pueden involucrarse varios automóviles
 3. Un automóvil solo tiene un conductor
 4. Un automóvil puede estar asegurado por varias pólizas, pero una póliza no puede asegurar varios autos. 
+
+Diagrama relacional
 
 El esquema anterior, puede ser representado a tráves del siguiente diagrama relacional:
 
@@ -87,3 +89,6 @@ El esquema anterior, puede ser representado a tráves del siguiente diagrama rel
         texto nombre_empresa
     }
 ```
+
+Operaciones de álgebra relacional
+
