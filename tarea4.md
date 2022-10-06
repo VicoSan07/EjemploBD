@@ -106,13 +106,11 @@ INSERT INTO Accident
 	('10/02/2016','77','21','9.9','0.85','29.69','WSW','10.4','0','Light Snow','3'),
 	('10/02/2016','32','24.1','7.1','0.75','29.82','West','28.8','0','Light Snow','4')
 
-
 INSERT INTO Car
 	VALUES
 	('Red','Sport','1'),
 	('Yellow','Truck','1'),
 	('Black','Sedan','2')
-
 
 INSERT INTO Driver
 	VALUES
