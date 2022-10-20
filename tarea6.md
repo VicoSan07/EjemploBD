@@ -1,4 +1,4 @@
-## **Tarea 04 - DB en SGBDs**
+## **Tarea 06 - Consultas en SQL**
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_de_la_UANL.svg"  width="200" height="100"> 
 
@@ -9,7 +9,7 @@
 #### Profr. Alberto Benavides
 #### Victor Sanchez
 
-Consultas en SQL
+Funciones
 
 Una vez que hemos [creado la base de datos](https://github.com/VicoSan07/EjemploBD/blob/main/tarea3.md) que necesitabamos, a la cuál posteriormente le insertamos datos, podemos realizar consultas mediante el uso de funciones. A continuación se comparten algunos ejemplos partículares:
 
